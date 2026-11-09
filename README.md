@@ -1,30 +1,31 @@
-# 🚀 ProjectileCubed (`projectilecubed`)
+# 🚀 Projectile Simulator: Air Resistance is a Lie
 
-![Build](https://shields.io)
-![Gravity](https://shields.io)
-![Air Resistance](https://shields.io)
+A dead-simple, highly addictive interactive physics canvas for launching virtual objects into the digital abyss without doing any actual math.
 
-> **Because throwing things straight up in real life just to measure peak height is frowned upon.**
+## Description
+Let’s face it: physics homework is tedious, and nobody actually wants to calculate trajectories by hand. This web interface lets you adjust angles, tweak velocities, and launch things into the void with zero friction and absolutely no air resistance—just like your physics teacher pretends the real world works. It visualizes the entire flight arc instantly, doing the heavy lifting so your brain doesn't have to. Drop the calculator and start throwing things.
 
-A sleek, interactive physics simulator that calculates upward projectile motion from an initial velocity—complete with real-time animations and live telemetry so you can watch kinematics happen right in your browser.
+## Getting Started
 
----
+### Dependencies
+* A modern web browser.
+* A deep resentment for manual algebra.
 
-## ✨ What It Does
-* **Upward Kinematics:** Enter an initial velocity and let physics handle the rest (assuming a classic frictionless, idealized universe).
-* **Live Motion Animation:** Watch the trajectory play out in real time instead of staring at static equations on a page.
-* **Real-Time Telemetry:** Tracks live details of the body mid-flight so you don't have to reach for a calculator.
-* **Zero Bloat:** Powered purely by `index.html` and `script.js`—no 500MB `node_modules` folder required.
+### Installing
+1. Clone this repository to your machine.
+2. Open the directory. No messy dependencies required.
 
----
-
-## 🚀 Quick Start
-Clone the repo and open `index.html` in your favorite browser:
+### Executing program
+Launch the simulation by opening the file:
 ```bash
-git clone https://github.com
+[open index.html](https://samarthnarsipur.github.io/projectilecubed/)
 ```
 
----
+## Help
+* **Problem:** Object flies off the screen.
+* **Fix:** Dial back the velocity, Maverick.
+* **Problem:** Object goes straight up and down.
+* **Fix:** Change the angle from 90 degrees.
 
-## 👨‍💻 Author
-Built with physics and caffeine by **[Samarth Narsipur](https://github.com/SamarthNarsipur)**.
+## License
+Licensed under the MIT License.
