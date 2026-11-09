@@ -20,6 +20,7 @@ Launch the simulation by opening the file:
 ```bash
 [open index.html](https://samarthnarsipur.github.io/projectilecubed/)
 ```
+<img width="1917" height="1078" alt="Screenshot 2026-11-06 191436" src="https://github.com/user-attachments/assets/10b95657-a9e4-4ca9-9b66-ac725ec9e0c2" />
 
 ## Help
 * **Problem:** Object flies off the screen.
