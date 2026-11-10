@@ -1,32 +1,24 @@
-# 🚀 Projectile Simulator: Air Resistance is a Lie
 
-A dead-simple, highly addictive interactive physics canvas for launching virtual objects into the digital abyss without doing any actual math.
+###projectile sim
 
-## Description
-Let’s face it: physics homework is tedious, and nobody actually wants to calculate trajectories by hand. This web interface lets you adjust angles, tweak velocities, and launch things into the void with zero friction and absolutely no air resistance—just like your physics teacher pretends the real world works. It visualizes the entire flight arc instantly, doing the heavy lifting so your brain doesn't have to. Drop the calculator and start throwing things.
+A simple web-based projectil simulator that lets you launch things on a canvas and look at the trajectory arc. Built this because I was bored and didn't want to calculate projectile physics by hand for class. It completely ignores air resistance and friction because nobody has time for that math.
 
-## Getting Started
+##description
 
-### Dependencies
-* A modern web browser.
-* A deep resentment for manual algebra.
+Basically, you put in an initial velocity and a launch angle, hit the compute button, and it draws the path instantly. It also gives you some live data like flight time, range, and height, plus a little vector FBD mode on the side.
 
-### Installing
-1. Clone this repository to your machine.
-2. Open the directory. No messy dependencies required.
+##how to run it
 
-### Executing program
-Launch the simulation by opening the file:
-```bash
-[open index.html](https://samarthnarsipur.github.io/projectilecubed/)
-```
-<img width="1917" height="1078" alt="Screenshot 2026-11-06 191436" src="https://github.com/user-attachments/assets/10b95657-a9e4-4ca9-9b66-ac725ec9e0c2" />
+You dont need to install anything or run any npm install commands.
+1. Just clone the repo or download the zip.
+2. Open index.html in whatever browser you use (chrome, firefox, etc).
+Or you can just check out the live version here: github.io
 
-## Help
-* **Problem:** Object flies off the screen.
-* **Fix:** Dial back the velocity, Maverick.
-* **Problem:** Object goes straight up and down.
-* **Fix:** Change the angle from 90 degrees.
+##troubleshoot things
 
-## License
-Licensed under the MIT License.
+• If it goes off screen: The velocity is probably way too high, just turn it down a bit.
+• If it just goes straight up: check your launch angle, you probably left it at 90 degrees.
+
+##license
+
+MIT license i guess, feel free to use the code for whatever.
