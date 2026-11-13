@@ -20,6 +20,8 @@ Or you can just check out the live version here: github.io
 • If it just goes straight up: check your launch angle, you probably left it at 90 degrees.
 <img width="1917" height="1078" alt="Screenshot 2026-11-06 191436" src="https://github.com/user-attachments/assets/bf576bba-2c11-4129-89e1-cee0a4ca9152" />
 
+AI Usage
+Yes, for the guidance to code and fine the neon colours less than 15% of total time
 ##license
 
 MIT license i guess, feel free to use the code for whatever.
